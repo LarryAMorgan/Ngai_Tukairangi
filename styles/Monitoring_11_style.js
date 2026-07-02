@@ -7,7 +7,7 @@ function categories_Monitoring_11(feature, value, size, resolution, labelText,
     switch(valueStr) {
         case 'Agfirst':
             return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
+        image: new ol.style.Circle({radius: 5.2 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(85,255,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -17,7 +17,7 @@ function categories_Monitoring_11(feature, value, size, resolution, labelText,
 
         case 'CM Trap':
             return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
+        image: new ol.style.Circle({radius: 5.2 + size,
             displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(227,26,28,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,

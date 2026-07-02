@@ -77,7 +77,7 @@ function categories_Staff_8(feature, value, size, resolution, labelText,
             return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [579.997, 579.997],
-                  scale: 0.027586349584566818,
+                  scale: 0.029310496433602246,
                   anchor: [289.9985, 289.9985],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
