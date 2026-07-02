@@ -24,16 +24,6 @@ function categories_Monitoring_11(feature, value, size, resolution, labelText,
                               bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
     })];
 			break;
-
-        case 'Flow Sensor':
-            return [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 6.0 + size,
-            displacement: [0, 0], stroke: new ol.style.Stroke({color: 'rgba(227,26,28,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(191,244,254,1.0)'})}),
-        text: createTextStyle(feature, resolution, labelText, labelFont,
-                              labelFill, placement, bufferColor,
-                              bufferWidth, textAlign, offsetX, offsetY, overflow, repeat)
-    })];
-			break;
     }};
 
 var style_Monitoring_11 = function(feature, resolution){

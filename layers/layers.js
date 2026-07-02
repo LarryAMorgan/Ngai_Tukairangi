@@ -202,8 +202,7 @@ maxResolution:7.00111653806549,
                 interactive: false,
     title: 'Monitoring<br />\
     <img src="styles/legend/Monitoring_11_0.png" /> Agfirst<br />\
-    <img src="styles/legend/Monitoring_11_1.png" /> CM Trap<br />\
-    <img src="styles/legend/Monitoring_11_2.png" /> Flow sensor<br />' });
+    <img src="styles/legend/Monitoring_11_1.png" /> CM Trap<br />' });
 var format_IrrigationPower_12 = new ol.format.GeoJSON();
 var features_IrrigationPower_12 = format_IrrigationPower_12.readFeatures(json_IrrigationPower_12, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
