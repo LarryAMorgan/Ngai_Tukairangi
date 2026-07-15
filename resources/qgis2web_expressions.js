@@ -763,17 +763,3 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
-
-
-
-function exp_label_RaupareDetails_7_eval_expression(context) {
-    // Variety || '\n' || "Block name"
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return ((feature.get('Variety')  + '\n') + feature.get('Block name') );
-    } else {
-        return ((feature.get('Variety')  + '\n') + feature.get('Block name') );
-    }
-}
